@@ -1,0 +1,7 @@
+.header__logo-zone {
+  display: flex;
+  padding: 28px 48px 0;
+  justify-content: space-between;
+  align-items: flex-end;
+
+}
