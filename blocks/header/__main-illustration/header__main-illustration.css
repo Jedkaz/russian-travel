@@ -1,6 +1,8 @@
 .header__main-illustration {
   width: 984px;
+  height: 615px;
   margin: auto;
-
-
+  background-image: url(../../../images/lead-polka.jpg);
+  background-size: contain;
+  position: relative;
 }
