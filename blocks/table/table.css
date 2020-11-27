@@ -1,7 +1,7 @@
-.intro__table {
+.table {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   grid-gap: 16px;
-  margin: 92px 48px 200px;
+  margin: 92px 48px 0;
   justify-items: center;
 }

@@ -1,0 +1,6 @@
+.article__link_position{
+	display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}

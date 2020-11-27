@@ -1,0 +1,34 @@
+.footer__cover {
+  align-content: center;
+  max-width: 1184px;
+  height: 740px;
+  margin: auto;
+  background-image: url(../../../images/cover-trains.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-position: center;
+  text-decoration: none;
+}
+
+.footer__cover:hover {
+  opacity: 0.2;
+}
+
+
+
+
+
+
+
+.footer__cover::before {
+
+  content: " ";
+  position: absolute;
+  opacity:0;
+  }
+/*.block:hover:after {
+  opacity: 1;
+  left:0;
+}*/

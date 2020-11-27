@@ -1,0 +1,11 @@
+.article__link {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: none;
+  color: #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+
+}
