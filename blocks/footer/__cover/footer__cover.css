@@ -12,23 +12,16 @@
   text-decoration: none;
 }
 
-.footer__cover:hover {
-  opacity: 0.2;
+
+.footer__cover::after {
+  opacity: 1;
 }
 
 
 
 
 
+.footer__cover:hover::after {
+  opacity: .2;
 
-
-.footer__cover::before {
-
-  content: " ";
-  position: absolute;
-  opacity:0;
-  }
-/*.block:hover:after {
-  opacity: 1;
-  left:0;
-}*/
+}
