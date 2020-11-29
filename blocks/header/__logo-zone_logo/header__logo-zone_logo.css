@@ -1,5 +1,15 @@
 .header__logo-zone_logo {
   background-image: url(../../../images/header-logo.svg);
+  background-size: cover;
   height: 52px;
   width: 176px;
+}
+
+
+
+@media screen and (min-width : 320px) and (max-width : 480px) {
+  .header__logo-zone_logo {
+    height: 42px;
+    width: 142px;
+  }
 }

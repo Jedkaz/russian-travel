@@ -5,3 +5,18 @@
   align-items: flex-end;
 
 }
+
+
+@media screen and (max-width: 768px) {
+  .header__logo-zone {
+    padding: 26px 24px 0;
+  }
+}
+
+
+@media screen and (min-width : 320px) and (max-width : 480px) {
+  .header__logo-zone {
+    padding: 16px 16px 0;
+  }
+}
+
