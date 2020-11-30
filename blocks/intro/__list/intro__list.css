@@ -4,7 +4,6 @@
   font-weight: bold;
   font-size: 12px;
   line-height: 18px;
-  /* or 150% */
   color: #FFFFFF;
   max-width: 690px;
   white-space: pre-line;
@@ -14,7 +13,7 @@
 }
 
 
-@media screen and (min-width : 320px) and (max-width : 480px) {
+@media screen and (min-width : 320px) and (max-width : 767px) {
   .intro__list {
     min-width: 288px;
 
