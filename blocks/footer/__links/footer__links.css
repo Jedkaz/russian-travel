@@ -15,8 +15,8 @@
     flex-direction: column;
     min-height: 296px;
     justify-content: space-between;
-    width: calc(100vw - 32px);
     margin-bottom: 48px;
+    max-width: 300px;
 
   }
 }
