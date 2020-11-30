@@ -3,7 +3,7 @@
     url('./Inter-Black.woff') format('woff'),
     url('./Inter-Black.ttf') format('truetype');
   font-family: 'Inter';
-  font-weight: black;
+  font-weight: 900;
 
 }
 
