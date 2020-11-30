@@ -22,6 +22,6 @@
     url('./Inter-Regular.woff') format('woff'),
     url('./Inter-Regular.ttf') format('truetype');
   font-family: 'Inter';
-  font-weight: Normal;
+  font-weight: normal;
 
 }

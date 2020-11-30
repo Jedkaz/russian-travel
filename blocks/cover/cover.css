@@ -6,20 +6,20 @@
 }
 
 
-@media screen and (min-width: 1001px) and (max-width : 1200px) {
+@media screen and (min-width: 1001px) and (max-width: 1200px) {
   .cover{
    min-width: 1024px;
    max-height: 640px;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width : 1000px) {
+@media screen and (min-width: 768px) and (max-width: 1000px) {
   .cover{
    width: 100vw;
   }
 }
 
-@media screen and (min-width : 320px) and (max-width : 767px) {
+@media screen and (min-width : 320px) and (max-width: 767px) {
   .cover{
     width: 100vw;
   }
