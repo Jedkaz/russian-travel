@@ -9,28 +9,28 @@
 
 }
 
-.place__paragraph:first-child {
-  padding-bottom: 26px;
+.place__paragraph:nth-child(2n) {
+  padding-top: 27px;
 }
 
 
-@media screen and (min-width: 768px) and (max-width: 1000px) {
+@media screen and (max-width: 1023px) {
   .place__paragraph {
     font-size: 16px;
   }
-
-  .place__paragraph:first-child {
-    padding-bottom: 24px;
+  .place__paragraph:nth-child(2n) {
+    padding-top: 25px;
   }
+
+
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .place__paragraph {
     font-size: 16px;
+    width: 284px;
 
   }
 
-  .place__paragraph:first-child {
-    padding-bottom: 24px;
-  }
 }
+
