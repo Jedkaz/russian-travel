@@ -1,15 +1,13 @@
 .cover {
   margin: 0;
   width: 1184px;
-
-
+  box-sizing: border-box;
 }
 
 
 @media screen and (max-width: 1279px) {
   .cover{
     width: 100%;
-
   }
 }
 
@@ -22,6 +20,7 @@
 @media screen and (max-width: 767px) {
   .cover{
     width: 100%;
+    max-width: 320px;
   }
 }
 
