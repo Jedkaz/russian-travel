@@ -2,6 +2,10 @@
   width: 1184px;
   margin-top: 92px;
   padding-bottom: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
 
 
 }
@@ -27,6 +31,7 @@
     width: 288px;
     padding: 0;
     margin: 64px auto 24px;
+    flex-direction: column;
   }
 }
 
