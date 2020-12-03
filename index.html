@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="./pages/index.css">
 </head>
 
-<body class="body">
+<body class="body-root">
   <div class="page">
 
     <header class="header">
@@ -42,11 +42,13 @@
           «Ладу» и проехала 20 тысяч километров по родной стране.
           Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
 
-          <p class="intro__list">Часовых поясов 11
-          Объектов природного наследия ЮНЕСКО 12
-          Объектов культурного наследия ЮНЕСКО 16
-          Природных заповедников 105
-          Аэропортов 241</p>
+        <ul class="intro__list">
+          <li>Часовых поясов <span class="intro__list_font-normal">11</span></li>
+          <li>Объектов природного наследия ЮНЕСКО <span class="intro__list_font-normal">12</span></li>
+          <li>Объектов культурного наследия ЮНЕСКО <span class="intro__list_font-normal">16</span></li>
+          <li>Природных заповедников <span class="intro__list_font-normal">105</span></li>
+          <li>Аэропортов <span class="intro__list_font-normal">241</span></li>
+        </ul>
       </section>
 
       <section class="photo-grid">
@@ -176,20 +178,23 @@
     </main>
 
     <footer class="footer">
-      <ul class="footer__links">
-        <li><a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты </a>
-        </li>
-        <li><a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
-        </li>
-        <li><a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
-        </li>
-        <li><a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
-        </li>
-        <li><a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
-        </li>
-      </ul>
-      <p class="footer__author"> &copy; 2020. Владимир Зуденков</p>
+      <nav class="footer__nav">
+        <ul class="footer__links">
+          <li><a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты </a>
+          </li>
+          <li><a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
+          </li>
+          <li><a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
+          </li>
+          <li><a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
+          </li>
+          <li><a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
+          </li>
+        </ul>
+        <p class="footer__author"> &copy; 2020. Владимир Зуденков</p>
+      </nav>
     </footer>
+
   </div>
 </body>
 

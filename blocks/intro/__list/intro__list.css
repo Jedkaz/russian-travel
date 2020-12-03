@@ -6,9 +6,10 @@
   line-height: 18px;
   color: #FFFFFF;
   max-width: 690px;
-  white-space: pre-line;
   margin-top: 34px;
   margin-bottom: 0;
+  list-style: none;
+  padding: 0;
 
 }
 
